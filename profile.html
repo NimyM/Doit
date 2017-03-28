@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To-Do List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/log.js"></script>
+                <link rel="stylesheet" href="css/responsive.css">
+        <script>
+            if(localStorage.getItem('flag')==0)
+                window.location.href="http://10.3.2.171/training/portal/index.html";
+        </script>
+
+    </head>
+    <body>
+         <div id="mainwrapper">
+            <header>
+                 <div class="container-fluid">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+                     <img src="images/logo.png" class="logo">
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="dashboard.html">Home</a></li>
+                        <li><a href="newlist.html">Create New</a></li>
+                        <li> <a href="profile.html"  class="active">Edit Profile</a></li>
+                    <li><a href="index.html" id="logout">Logout</a></li>
+                        
+                        </ul>
+                </div>
+                </div>
+                
+            </header>
+             <section class="clearfix">
+                 <div class="panel panel-body jumbotron" id="profilepage">
+                     <div id="panel-header"><h3 class="head">Edit Profile</h3></div>
+                <form class="form-horizontal" role="form">
+                    
+                    <br>
+  <div class="form-group">
+      <div class="alert alert-success" id="success1"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Changes successfully saved</div>
+    <label class="control-label col-sm-4">Name:</label>
+    <div class="col-sm-8">
+      <input type="name" class="form-control" id="profilename" value="" maxlength="10">
+    </div>
+      <span id="err00">&#42; Required</span>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-4">Email Id:</label>
+    <div class="col-sm-8">
+      <input type="email" class="form-control" id="profileemail" value="">
+         
+    </div>
+      <span id="err01">&#42; Required</span>
+     <span id="err05">&#42; Existing Email Id</span>
+  </div>
+                    
+                    <div class="form-group"> 
+    <div class="col-sm-offset-4 col-sm-8">
+      <button type="button" class="btn btn-default btn-md" id="saveprofile">Save Changes</button>
+    </div>
+  </div>
+  
+                    </form>
+                 <br><br>
+                 <form class="form-horizontal" role="form">
+                     <h3 class="head">Change Password</h3><br>
+           <div class="form-group">
+               <div class="alert alert-success" id="success"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Password changed successfully</div>
+    <label class="control-label col-sm-4">Current Password:</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="currentpwd" value="">
+    </div>
+               <span id="err08">&#42; Enter Password</span>
+               <span id="err7">&#42; Incorrect Password</span>
+               
+  </div>
+                 
+                 
+                    <div class="form-group">
+    <label class="control-label col-sm-4">New Password:</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="newpwd" value="">
+    </div>
+                        <span id="err8">&#42; Enter Password</span>
+  </div>
+                    <div class="form-group">
+    <label class="control-label col-sm-4">Reenter New Password:</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="renewpwd" value="">
+    </div>
+                        <span id="err9">&#42;Password does not match</span>
+                        <span id="err06">&#42; Password must be atleast 8 characters</span>
+  </div>
+                    <div class="form-group"> 
+    <div class="col-sm-offset-4 col-sm-10">
+      <button type="button" class="btn btn-default btn-md" id="confirm">Save Password</button>
+    </div>
+  </div>
+                     
+</form>
+                     </div>
+             </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To-Do List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="dashboard.html">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/log.js"></script>
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+         <div id="mainwrapper">
+            <header>
+                <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ar', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <img src="images/logo.png" class="logo">
+            </header>
+             <section class="clearfix">
+                 <div class="alert alert-success jumbotron" id="signed"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Successfully Registered!<br>Please login with your credentials.</div>
+                <div class="container">
+                    <div class="jumbotron">
+                    <h3><b>LOGIN</b></h3>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="usr">Email ID:</label>
+                            <input type="text" class="form-control" id="user">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="paswd"><span id="err6">&#42; Fill in all fields</span>
+                        </div>
+                        <button type="button" class="btn btn-default btn-md initial" onclick="app.login()">Sign In</button>
+                        <span id="error">&#42; Incorrect Email Id or password</span>
+                    </form>
+                    
+               <br>
+                 <div class="col-xs-12 sep">Not Registered?&nbsp;<a href="signup.html">Click here</a></div>
+                
+</div>
+                     </div>
+                 
+             </section>
+    </body>
+       
+        
+</html>
+

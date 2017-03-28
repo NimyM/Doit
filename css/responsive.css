@@ -1,0 +1,57 @@
+@media only screen and (min-width:768px){
+    ul{
+        display: block!important;
+    }
+    #tasks{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1127px){
+     button.btn.btn-default.addtodo{
+        float: none;
+        margin-left: 0px!important;
+          margin-top: 2px;
+    }
+    #ToDo{
+        width: 100%!important;
+    }
+}
+@media only screen and (max-width:768px){
+    #myNavbar{
+        padding: 0;
+        overflow: hidden;
+        margin: 0;
+        top: 77px;
+    }
+    ul{
+        margin: 0!important;
+        float: none;
+        margin: 0;
+        width: 100%;
+        background-color: aliceblue;       
+    }
+    ul li{
+        display: block;
+        border-bottom: 1px solid mediumvioletred;
+    }
+    div.panel.panel-default{
+        margin: 0;
+    }
+    #err,#err1,#err2,#err3,#err4,#err5,#err6,#err7,#err8,#err9,#error{
+        margin: 0 2%;
+    }
+    button.btn.btn-default{
+            float: right;
+        margin-top: 2px;
+    }
+   
+    .left{
+        width: 70%;
+    }
+    .right{
+        width: 23%;
+    }
+    .go{
+        top: 25%;
+    }
+}

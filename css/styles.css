@@ -1,0 +1,217 @@
+body,html{
+    height: 100%;
+}
+#mainwrapper{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 100%;
+    background: url(http://10.3.2.171/training/portal/images/Bg.png);
+    background-size: cover;
+    }
+header{
+    background-color: gainsboro;
+    padding: 2%;
+}
+#err,#err1,#err2,#err3,#err4,#err5,#err6,#err7,#err8,#err9,#error,#signed,#success,#err05,#err06,#success1,#err00,#err01,#err08{
+    display: none;
+}
+#profilepage{
+    padding: 0;
+}
+#panel-header{
+      padding: 14px;
+  background-color: antiquewhite;
+}
+form.form-horizontal {
+  padding: 24px;
+}
+section{
+    overflow: hidden;
+    padding: 100px 20px;
+}
+#panel-header{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);  
+    
+}
+#overlay{
+    background: rgba(255,255,255,.15);
+    height: 100%;
+    margin-top: 20px;
+}
+#myNavbar{
+   width:100%;
+    position: absolute;
+    left: 0px;
+    z-index: 100;
+}
+span.icon-bar{
+      background-color: white;
+}
+#newTodo,#todohead{
+    background-color: beige;
+}
+#todohead{
+    position: relative;
+}
+#archive,#completedhead{
+    background-color: lightseagreen;
+}
+#current,#currenthead{
+    background-color: darkslateblue;
+}
+.jumbotron{
+    margin:0 auto;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    padding: 20px;
+}
+div{
+    overflow: hidden;
+}
+.input{
+    border-bottom: 1px solid gainsboro;
+    margin: 2%;
+}
+a.active{
+    background-color: white;
+    opacity: 0.55;
+    color: #23527c;
+    cursor: default;
+}
+div.col-xs-12{
+    margin: 2% 0;
+    padding: 2%;
+}
+.sep{
+    padding-left: 0!important;
+}
+.color,button.btn.btn-default,h4.text-center,#current a:hover,#archive a:hover{
+    color: white;
+    text-decoration: none;
+}
+#newTodo a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+div.panel.panel-default{
+    margin: 0 14%;
+}
+ul.nav.navbar-nav,ul,.list,span.badge{
+    float: right;
+}
+h3.text-center{
+    margin-top: 15px;
+}
+.head,h3.text-center{
+    color: blueviolet;
+}
+h4.text-center.dolist{
+    color: white;
+}
+h4.text-center.dolist1{
+    color: blueviolet;
+}
+button.btn.btn-default {
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+    margin-left: 1%;
+}
+h4.text-center{
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo{
+    width: 80px;
+    height: auto;
+}
+a.color,a#colors{
+    display: block;
+}
+.edit,.delete{
+    
+    width: 30px;
+    height: auto;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.change{
+    float: left;
+}
+a.active{
+    cursor: default;
+}
+li a:hover,#current:hover,#archive:hover,#newTodo:hover{
+    box-shadow: 0px 0px 20px lightgrey;
+    transition: all ease 1s;
+}
+#err,#err1,#err2,#err3,#err4,#err5,#err6,#err7,#err8,#err9,#error,#err05,#err06,#err00,#err01,#err08{
+    color:red;
+    text-align: right;
+    padding-right: 2%;
+}
+span.glyphicon{
+    color: white;
+}
+span.glyphicon.glyphicon-plus{
+    color: #23527c;
+}
+li a{
+    color: mediumvioletred;
+    
+}
+button.navbar-toggle{
+    background-color: violet;
+}
+input.change {
+    width: 16px;
+    height: 16px;
+    margin-right: 1%!important;
+}
+input#ToDo{
+    width: 70%;
+    font-size: 18px;
+}
+.go{
+    position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: 0px;
+}
+.col-xs-12 a{
+    font-size: 16px;
+    padding: 2px;
+}
+#listofitems,#archivelist{
+    text-align: center;
+}
+li.list-group-item{
+    height: 52px;
+}
+li.list-group-item.listli{
+    text-align: left;
+}
+.imp{
+    color: red;
+}
+i{
+    font-size: 12px;
+    float: right;
+}
+.initial{
+    margin-left: 0!important;
+    float: none!important;
+}
+.initial:hover{
+   -webkit-transform: scale(1.0);
+}
+.right {
+    text-align: right;
+    float: right;
+    width: 15%;
+}
+.left{
+    float: left;
+    width: 80%;
+}
